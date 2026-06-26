@@ -1,28 +1,29 @@
 # Guía de contribución
 
 ## Alcance
-Este repositorio pertenece a la organización institucional de DirLabor y se rige por sus lineamientos técnicos y metodológicos.
+Este repositorio forma parte de la organización de GitHub de DirLabor y se rige por sus lineamientos institucionales de desarrollo de software.
 
-## Flujo de contribución
-1. Crear o asociar un issue.
-2. Crear rama `feature/*`, `fix/*` o `hotfix/*`.
-3. Realizar cambios pequeños y trazables.
-4. Abrir Pull Request con descripción completa.
-5. Esperar revisión y aprobación.
-6. Hacer merge según la política vigente.
+## Flujo de trabajo
+1. Registrar la necesidad mediante issue.
+2. Clasificarla según tipo, prioridad y alcance.
+3. Crear una rama `feature/*`, `fix/*` o `hotfix/*`.
+4. Implementar cambios pequeños, trazables y documentados.
+5. Abrir un Pull Request.
+6. Atender revisión y observaciones.
+7. Realizar merge una vez aprobado.
 
-## Reglas mínimas
+## Reglas generales
 - No hacer push directo a `main`.
-- Todo cambio debe estar vinculado a una necesidad o incidencia.
-- Todo PR debe incluir contexto, alcance, pruebas y riesgos.
-- Si cambia comportamiento funcional, actualizar README o documentación técnica.
-- Si cambia estructura de datos, adjuntar plan de migración.
+- Todo cambio debe estar asociado a una necesidad identificable.
+- Todo Pull Request debe incluir contexto, evidencia y alcance.
+- Si se modifica comportamiento funcional o técnico, se debe actualizar documentación.
+- Si se alteran datos, estructuras o variables, se debe documentar el cambio.
 
-## Estándares
-- Nombres claros para ramas, commits y variables.
-- Commits pequeños y coherentes.
+## Estándares mínimos
 - Código legible y consistente.
-- Revisión entre pares obligatoria.
+- Nombres claros en ramas, commits, variables y archivos.
+- Revisión por pares obligatoria cuando aplique.
+- Uso de plantillas institucionales para issues y pull requests.
 
-## Reporte de problemas
-Usar Issues del repositorio o el canal institucional definido.
+## Documentación
+Consultar siempre el handbook o las políticas transversales de la organización cuando existan lineamientos específicos para arquitectura, seguridad, despliegue o calidad.
