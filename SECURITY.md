@@ -1,17 +1,18 @@
 # Política de seguridad
 
-## Reporte responsable
-No reportar vulnerabilidades mediante issues públicos.
+## Reporte de vulnerabilidades
+No reportes vulnerabilidades de seguridad mediante issues públicos.
 
 ## Canal de reporte
-Enviar el hallazgo al correo institucional definido por DirLabor para incidentes de seguridad.
+Las vulnerabilidades deben reportarse al canal institucional definido por DirLabor para incidentes de seguridad.
 
-## Información esperada
+## Información requerida
+Incluye, en lo posible:
 - Descripción de la vulnerabilidad
-- Impacto potencial
+- Riesgo o impacto estimado
 - Pasos para reproducir
 - Evidencia técnica
-- Recomendación inicial, si aplica
+- Recomendación inicial
 
-## Tratamiento
-El equipo responsable evaluará severidad, alcance y prioridad de remediación.
+## Manejo del reporte
+El equipo responsable evaluará la severidad, el alcance y la prioridad de remediación, promoviendo divulgación responsable y corrección oportuna. GitHub recomienda incluir un archivo `SECURITY.md` y usar mecanismos de seguridad del repositorio para proteger el código y facilitar la divulgación responsable. [web:41]
